@@ -9,7 +9,8 @@
       document.getElementById("result").innerHTML = t;
     });
   }
-  function runEval(evalString) {
+  function runEval() {
+    document.getElementById("evaltext").value;
     UART.eval(evalString, function(t) {
       document.getElementById("evalresult").innerHTML = t;
     });
